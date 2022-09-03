@@ -10,6 +10,7 @@ pipeline {
       steps {
         echo 'Testing the application'
         echo 'Security Scan Done'
+        echo 'QA approved'
       }
     }
     stage("deploy") {
